@@ -1,0 +1,144 @@
+
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;  
+}
+h1{
+    color: gray;
+    font-size: 35px;
+    font-weight: 5px;
+    line-height: 20px;
+}
+.first-part p{
+    color: gray;
+}
+.orange{
+    color: orange;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    background-image: linear-gradient(to right,orange , rgb(201, 57, 32));
+    font-weight: 400;
+}
+.first-part{
+    display: flex;
+    margin: 10px 2px ;
+}
+.skip{
+    padding-left: 15%;
+    padding-right: 2%; 
+    padding-top: 8%;
+    padding-bottom: 5%;   
+}
+.hero{
+    padding-top: 2%;
+    padding-right: 12%; 
+    padding-bottom: 5%;   
+}
+.half-width{
+    width: 50%
+}
+.half-width{
+    width: 100%;
+}
+.second-part{
+    background-image: url(images/male/backg.png);
+    background-size: 100%;
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.about{
+    padding-left: 60%;
+    padding-top: 5%;
+    padding-right: 15%;
+    text-align: justify;
+}
+.btn{
+    padding-top:10% ;
+}
+.btn2{
+    padding-top: 25%;
+}
+h2 {
+    font-size: 25px;
+    color: black;
+}
+.flexible-tile{
+    display: flex;
+    padding-right: 210px;
+    padding-top: 5%;
+    padding-bottom: 0%;
+}
+.flexible-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 10px;
+}
+.flexible-item p{
+    text-align: left;
+    padding-right: 2px;
+}
+.recipie{
+    text-align: center;
+    margin-left: 27%;
+    margin-right: 27%;
+    
+}
+.recipie h1{
+    font-size: 25px;
+}
+.kk{
+    display: flex;
+    gap: 125px;;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 20%;
+    padding-right: 2%;
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 10px;
+    
+}
+.kk h2 p{
+    text-align: center;
+    line-height: 0px;
+}
+
+.kk p{
+    font-size: small;
+}
+
+.bottom-item{
+    padding-left: 5%;
+    
+
+
+}
+
+.foot{
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+    text-align: center;
+    line-height: 10px;
+}
+.foot h2{
+    color: gray;
+}
+.foot small{
+    color: white;
+}
